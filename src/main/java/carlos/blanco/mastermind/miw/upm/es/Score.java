@@ -1,12 +1,12 @@
 package carlos.blanco.mastermind.miw.upm.es;
 
 public class Score {
+
     private int correctPositionAndColor;
 
     private int correctColor;
 
     public Score(int correctPositionAndColor, int correctColor) {
-        super();
         this.correctPositionAndColor = correctPositionAndColor;
         this.correctColor = correctColor;
     }
